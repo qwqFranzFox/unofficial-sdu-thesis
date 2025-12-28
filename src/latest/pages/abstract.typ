@@ -7,7 +7,7 @@
   body-en: "",
   keywords-en: (),
 ) = {
-  set page(header: none)
+  // set page(header: none)
 
   set text(font: fonts.宋体)
   {
@@ -34,25 +34,25 @@
     }
   }
   // 英文摘要
-  {
-    set par(first-line-indent: 2em, justify: true)
-    // 英文摘要标题
-    {
-      set par(spacing: 1em)
-      v(15pt)
-      align(center)[#text(size: fontsize.小二, font: "Times New Roman", weight: "bold")[ABSTRACT]]
-    }
-    // 英文摘要正文
-    {
-      set par(spacing: 1em, leading: 1em)
-      set text(font: fonts.宋体, size: fontsize.小四)
-      body-en
-    }
-    // 英文关键字
-    {
-      set par(first-line-indent: 0em)
-      [*Key Words*: #(("",)+ keywords-en.intersperse(", ")).sum()]
-      pagebreak(weak: true)
-    }
+  // {
+  //   set par(first-line-indent: 2em, justify: true)
+  //   // 英文摘要标题
+  //   {
+  //     set par(spacing: 1em)
+  //     v(15pt)
+  //     align(center)[#text(size: fontsize.小二, font: "Times New Roman", weight: "bold")[ABSTRACT]]
+  //   }
+  //   // 英文摘要正文
+  //   {
+  //     set par(spacing: 1em, leading: 1em)
+  //     set text(font: fonts.宋体, size: fontsize.小四)
+  //     body-en
+  //   }
+  //   // 英文关键字
+  //   {
+  //     set par(first-line-indent: 0em)
+  //     [*Key Words*: #(("",)+ keywords-en.intersperse(", ")).sum()]
+  //     pagebreak(weak: true)
+  //   }
   }
 }

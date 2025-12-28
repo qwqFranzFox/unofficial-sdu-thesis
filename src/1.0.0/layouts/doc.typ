@@ -30,7 +30,7 @@
         align(center)[
           #block()[
             #text(
-              "山东大学本科毕业论文(设计)",
+              "新生研讨课课程报告",
               font: fonts.宋体,
               size: fontsize.小五,
             )

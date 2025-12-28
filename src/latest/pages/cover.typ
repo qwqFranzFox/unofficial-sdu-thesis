@@ -23,14 +23,14 @@
     #v(-13em)
     #block(width: 50em)[
       #scale(x: 70%)[
-        #text(font: fonts.方正大黑简体, size: 62pt, weight: "medium")[#v(2.6em)毕 业 论 文]
-        #text(font: fonts.楷体, size: 62pt, weight: "medium")[（]
-        #text(font: fonts.方正大黑简体, size: 62pt, weight: "medium")[设 计]
-        #text(font: fonts.楷体, size: 62pt, weight: "medium")[）]
+        #text(font: fonts.方正大黑简体, size: 62pt, weight: "medium")[#v(2.6em)课程报告]
+        // #text(font: fonts.楷体, size: 62pt, weight: "medium")[（]
+        // #text(font: fonts.方正大黑简体, size: 62pt, weight: "medium")[]
+        // #text(font: fonts.楷体, size: 62pt, weight: "medium")[）]
       ]]
     #v(1.7em)
   ]
-  fakebold[#text(font: fonts.宋体, size: fontsize.三号, weight: "bold")[论文（设计）题目：]]
+  fakebold[#text(font: fonts.宋体, size: fontsize.三号, weight: "bold")[题目：]]
 
   v(4.6em)
   align(center)[
@@ -66,10 +66,10 @@
           [#info-key("专业")], [#h(.5em) #text(size: fontsize.四号, font: fonts.宋体)[#info.major]],
           table.hline(start: 1, position: bottom),
           [#info-key("年级")], [#h(.5em) #text(size: fontsize.四号, font: fonts.宋体)[#info.grade]],
-          table.hline(start: 1, position: bottom),
-          [#info-key("指导教师")], [#h(.5em) #text(size: fontsize.四号, font: fonts.宋体)[
-                #info.mentor
-            ]],
+          // table.hline(start: 1, position: bottom)
+//           [#info-key("指导教师")], [#h(.5em) #text(size: fontsize.四号, font: fonts.宋体)[
+//                 #info.mentor
+            // ]],
         )
       ]
     ]
